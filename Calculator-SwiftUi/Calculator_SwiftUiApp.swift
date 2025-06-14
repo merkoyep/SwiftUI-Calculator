@@ -12,6 +12,7 @@ struct Calculator_SwiftUiApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(GlobalState())
         }
     }
 }
